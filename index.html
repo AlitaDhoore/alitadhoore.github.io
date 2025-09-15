@@ -5,18 +5,96 @@
   <title>Alita D'hoore - Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-    header { text-align: center; }
-    nav a { margin: 0 10px; }
-    section { margin-top: 40px; }
-    h1, h2 { color: #333; }
-    a { color: #007acc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .hero img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #007acc;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #007acc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #007acc;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Ali Tadhoore</h1>
+    <h1>Alita D'hoore</h1>
     <p>Welcome to my personal website</p>
     <nav>
       <a href="#about">About</a>
@@ -25,9 +103,14 @@
     </nav>
   </header>
 
+  <div class="hero">
+    <img src="me.jpg" alt="Alita D'hoore">
+    <p>Hi, I’m Alita 👋. Passionate about bioinformatics and data science. </p>
+  </div>
+
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I’m Alita. I am passionate about bioinformatics and the power of data to make a difference in healthcare. Over the years I’ve trained myself to work with complex datasets, not just to manage them but to really understand the stories they tell. I enjoy the creativity behind developing algorithms, where problem-solving meets innovation, and I find it exciting to use computational methods to tackle real-world challenges. What motivates me most is applying these skills to medical problems, where data-driven insights can directly improve people’s lives. This website introduces who I am, my CV, and some of my past projects.</p>
+    <p>I am passionate about bioinformatics and the power of data to make a difference in healthcare. Over the years I’ve trained myself to work with complex datasets, not just to manage them but to really understand the stories they tell. I enjoy the creativity behind developing algorithms, where problem-solving meets innovation, and I find it exciting to use computational methods to tackle real-world challenges. What motivates me most is applying these skills to medical problems, where data-driven insights can directly improve people’s lives. This website introduces who I am, my CV, and some of my past projects.</p>
   </section>
 
   <section id="cv">
@@ -44,7 +127,7 @@
   </section>
 
   <footer>
-    <p>© 2025 Ali Tadhoore</p>
+    <p>© 2025 Alita D'hoore</p>
   </footer>
 </body>
 </html>
